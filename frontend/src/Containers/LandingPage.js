@@ -2,7 +2,7 @@ import React from 'react';
 const LandingPage = () => {
     return ( 
         <div>
-            <h1> Welcome to 4all!</h1>
+            <h2>hi</h2>
         </div>
      );
 }
