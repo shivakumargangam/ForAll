@@ -3,7 +3,12 @@ import LandingPage from "./Containers/LandingPage.js";
 function App() {
   return (
     <div className="App">
-      <LandingPage/>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/about" element={<LandingPage/>}/>
+      </Routes>
+      </BrowserRouter>
+
     </div>
   );
 }
