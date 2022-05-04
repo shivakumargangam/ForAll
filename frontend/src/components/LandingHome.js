@@ -12,6 +12,9 @@ const LandingHome = () => {
                     backgroundRepeat: 'no-repeat', }}>
                 <h1>Save </h1>
                 <h1>Orphans</h1>
+                <div>
+                    
+                </div>
             </div>
             <div>
                 <h1>Donate and change the life</h1>
