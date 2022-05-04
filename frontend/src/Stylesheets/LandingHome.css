@@ -1,8 +1,37 @@
 .LpHome{
     color: white;
     font-family: "Bebas", Sans-serif;
-    font-size: 50px;
+    font-size: 65px;
+    /* font-weight: 30; */
     line-height: 0.8em;
     letter-spacing: -1px;
-    padding: 3%  0 0 15%;
+    padding: 3% 0 0 5%;
+}
+.LpPreviewdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 100px 0 0px;
+}
+.LpHeaddiv{
+    font-size: 30px;
+}
+.Lpcontentdiv{
+    font-size: 15px;
+}
+.LpPrevBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+}
+.blur{
+    background: rgba(50, 70, 80, 0.5);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
 }
